@@ -1,0 +1,84 @@
+@import url(
+    https://fonts.googleapis.com/css?family=Tektur&display=swap
+);
+body {
+    font-family: Tektur, serif ;
+    background: linear-gradient(90deg, #033ab8 0%, #0a0a0a 100%);
+}
+p {
+    color: aqua;
+}
+.nav-link {
+    color: rgb(62, 240, 240) ;
+}
+.navbar-nav .nav-link.active {
+    color: rgb(239, 246, 246) ;
+}
+.navbar-brand img {
+width: 40px;
+}
+.navbar-toggler {
+    background-color: darkgray;
+}
+.side-bar {
+    color: aqua;
+    background: linear-gradient(270deg, #033ab8 0%, #0a0a0a 100%);
+}
+.card {
+    color: aqua;
+    background: linear-gradient(270deg, #0039bf 0%, #000000 100%);
+}
+.card a {
+    text-decoration: none;
+    color: aqua;
+}
+.slide-text,
+.footer-text {
+    color: aqua;
+    margin: auto auto;
+        
+}
+.coll-anim {
+    animation: myAnim 2s ease 0s infinite normal forwards;
+}
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+@media (max-width: 750px) {
+    .carousel-indicators {
+        display: none;
+    }
+} 
+footer, 
+.btn-outline-primary {
+    background: linear-gradient(270deg, #033ab8 0%, #0a0a0a 100%);
+}
+.media-links {
+display: flex;
+justify-content: center;
+align-items: center;
+}
